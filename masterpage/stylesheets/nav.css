@@ -1,1 +1,109 @@
-style
+nav {
+  background-color: #D8E2EE;
+  color: #000;
+  display: block;
+  overflow: hidden;
+  width: 100%; 
+ 
+}
+
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+
+    nav ul li {
+      display: inline-block;
+      list-style-type: none;
+      text-align: left;
+      
+      -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; 
+    }
+      
+      nav > ul > li > a > .caret {
+
+        content: "";
+        display: inline-block;
+        height: 0;
+        width: 0;
+        vertical-align: middle;
+        
+  
+        -webkit-transition: color 0.1s linear;
+     	  -moz-transition: color 0.1s linear;
+       	-o-transition: color 0.1s linear;
+          transition: color 0.1s linear; 
+      }
+
+      nav > ul > li > a {
+      font-size: 18px;
+        color: #000;
+        display: block;
+        line-height: 40px;
+        padding: 0 25px;
+        text-decoration: none;
+      }
+
+        nav > ul > li:hover {
+          background-color: #DAE0E7;
+          
+        }
+
+        nav > ul > li:hover > a {
+         color: #000;
+        }
+
+        nav > ul > li:hover > a > .caret {
+          border-top-color: #DAE0E7;
+        }
+      
+      nav > ul > li > div {
+      font-size:14px;
+        background-color: #DAE0E7;
+        border-top: 0;
+        
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+        display: none;
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+        width: auto;
+	visibility: hidden;
+	z-index: 100;
+  
+        -webkit-transiton: opacity 0.2s;
+        -moz-transition: opacity 0.2s;
+        -ms-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        -transition: opacity 0.2s;
+      }
+
+        nav > ul > li:hover > div {
+          display: block;
+          opacity: 1;
+          visibility: visible;
+        }
+
+          nav > ul > li > div ul > li {
+            display: block;
+          }
+
+            nav > ul > li > div ul > li > a {
+              color: #000;
+              display: block;
+              padding: 10px 10px;
+              text-decoration: none;
+            }
+
+              nav > ul > li > div ul > li:hover > a {
+                 background-color: #c1c1c1;
+				
+              }
+			  
