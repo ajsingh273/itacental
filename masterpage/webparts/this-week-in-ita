@@ -1,1 +1,22 @@
-html
+
+<div class="row"  style=" margin-top:-35px; ">
+  <div class="col-sm-6 col-md-4" >
+    <div class="thumbnail" style="background:#D8E2EE;">
+            <div class="caption">
+        <h2 style="font-weight:normal;">This Week in ITA</h2>
+        <p>Dear Colleagues,</br></br>
+
+Here are a few of the things happening this week across ITA:</br></br>
+
+I will be in at the World Economic Forum (WEF) on Latin America in Panama City...<a>[read more]</a></br>
+
+Have a great week!</br></br>
+
+Sincerely,</br>
+Ken</p>
+        
+      </div>
+    </div>
+  </div>
+
+
