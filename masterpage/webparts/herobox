@@ -1,1 +1,69 @@
-html
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="slippry.min.js"></script>
+		<script src="//use.edgefonts.net/cabin;source-sans-pro:n2,i2,n3,n4,n6,n7,n9.js"></script>
+		<meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/_catalogs/masterpage/ShareBoot/css/demo.css">
+    <link rel="stylesheet" href="/_catalogs/masterpage/ShareBoot/css/slippry.css">
+	</head>
+	<body>	
+
+
+		<div class="demo_wrapper" href="/_catalogs/masterpage/ShareBoot/css/slippry.css" rel="stylesheet" type="text/css" style="width:600px; margin-top:-35px; margin-right:0px; margin-left:0px;">
+			<span class="demo_block">
+				
+				
+			<ul id="demo1">
+				<li><a href="#slide1"><img src="/_catalogs/masterpage/ShareBoot/images/rotator1.jpg" ></a></li>
+				<li><a href="#slide2"><img src="/_catalogs/masterpage/ShareBoot/images/rotator2.jpg" ></a></li>
+				<li><a href="#slide3"><img src="/_catalogs/masterpage/ShareBoot/images/rotator3.jpg" ></a></li>
+			</ul>
+			</span>
+		</div>		
+</div>
+		<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					transition: 'fade',
+					useCSS: true,
+					speed: 1000,
+					pause: 3000,
+					auto: true,
+					preload: 'visible'
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>
