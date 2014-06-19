@@ -1,1 +1,29 @@
-html
+<!-- Start Footer -->
+<div class="section-colored stickyfooter">
+	<div class="container">
+		<footer>			
+			<div class="row">
+				<div class="col-md-4" style="width:700px;float:right;">
+				
+				<h4 style="float:left;margin-right:15px;"><a href="#">ITA</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">ITA Central</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">MyOrg</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">Cross-Cutting</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">Teams</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">Applications</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">Forms</a></h4>
+				<h4 style="float:left;margin-right:15px;"><a href="#">Help</a></h4>
+				
+					
+									</div>
+				
+				<div class="col-md-4">
+										
+					
+				</div>
+			</div>			
+		</footer>
+	</div>
+</div>
+<!-- End Footer -->
+
