@@ -1,1 +1,32 @@
-script
+<script>
+$('.searchButton').on('click',function(){
+  alert('You clicked search button');
+});
+</script>
+
+<script>
+$(document).ready()
+jQuery(document).ready(function(){
+  jQuery('selector').slippry()
+});
+
+jQuery('#news-demo').slippry({
+  // general elements & wrapper
+  slippryWrapper: '<div class="sy-box news-slider" />', // wrapper to wrap everything, including pager
+  elements: 'article', // elments cointaining slide content
+
+  // options
+  adaptiveHeight: false, // height of the sliders adapts to current 
+  captions: false,
+
+
+
+  // transitions
+  transition: 'horizontal', // fade, horizontal, kenburns, false
+  speed: 1200,
+  pause: 8000,
+
+  // slideshow
+  autoDirection: 'next'
+});
+</script>
