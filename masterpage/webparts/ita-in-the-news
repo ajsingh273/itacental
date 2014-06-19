@@ -1,22 +1,6 @@
-
-<div class="row"  style=" margin-top:-35px; ">
-  <div class="col-sm-6 col-md-4" >
-    <div class="thumbnail" style="background:#D8E2EE;">
-            <div class="caption">
-        <h2 style="font-weight:normal;">This Week in ITA</h2>
-        <p>Dear Colleagues,</br></br>
-
-Here are a few of the things happening this week across ITA:</br></br>
-
-I will be in at the World Economic Forum (WEF) on Latin America in Panama City...<a>[read more]</a></br>
-
-Have a great week!</br></br>
-
-Sincerely,</br>
-Ken</p>
-        
-      </div>
-    </div>
-  </div>
-
- 
+<div id="MSOZoneCell_WebPartWPQ4" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical " style="width:600px">
+			<div class="ms-webpart-chrome-title" id="WebPartWPQ4_ChromeTitle" style="width:600px;">
+				<span title="ITA Central Activity - Displays an RSS feed." id="WebPartTitleWPQ4" class="js-webpart-titleCell"><h2 class="ms-webpart-titleText" style="overflow:hidden;text-overflow:ellipsis;text-align:justify;"><nobr><span>ITA Central Activity</span><span id="WebPartCaptionWPQ4"></span></nobr></h2></span>
+			</div><div WebPartID="39d5ca47-5056-48d4-944a-99a6624cbda1" HasPers="false" id="WebPartWPQ4" class="ms-WPBody ms-WPBorder noindex ms-wpContentDivSpace " allowDelete="false" style="width:600px;overflow:auto;" ><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><div id="rssFeedWPDiv_ctl00_ctl46_g_39d5ca47_5056_48d4_944a_99a6624cbda1" style="padding-top:5px;"><center><img src='/_layouts/15/images/CRPERSPC.GIF' alt='Retrieving Data' style='border-width:0px;' /></center></div></td></tr></table><div class="ms-clear"></div></div>
+		</div>
