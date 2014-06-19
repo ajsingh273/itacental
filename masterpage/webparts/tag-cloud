@@ -1,1 +1,8 @@
-html
+<div id="MSOZoneCell_WebPartWPQ2" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical " style="width:200px">
+			<div class="ms-webpart-chrome-title" id="WebPartWPQ2_ChromeTitle" style="direction:ltr;width:200px;">
+				<span title="Tag Cloud" id="WebPartTitleWPQ2" class="js-webpart-titleCell"><h2 class="ms-webpart-titleText" style="overflow:hidden;text-overflow:ellipsis;text-align:justify;"><nobr><span>Tag Cloud</span><span id="WebPartCaptionWPQ2"></span></nobr></h2></span>
+			</div><div WebPartID="f58bdc43-77d5-4b21-a0f5-c3e048844d0f" HasPers="false" id="WebPartWPQ2" class="ms-WPBody ms-WPBorder noindex ms-wpContentDivSpace " allowDelete="false" style="width:200px;" ><div id="tagCloudBodyctl00_ctl46_g_f58bdc43_77d5_4b21_a0f5_c3e048844d0f"><center><img src="/_layouts/15/images/hig_progcircle_loading24.gif" alt="Retrieving Data" style="border-width:0px;margin-top:5px;" /></center></div><div class="ms-clear"></div></div>
+		</div>
+	</div>
+</div> 
