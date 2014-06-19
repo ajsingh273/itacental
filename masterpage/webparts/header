@@ -1,1 +1,30 @@
-html
+<div id="s4-workspace">
+<div id="s4-bodyContainer">
+
+<!-- Start Top Navigation -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="color:#00699e;
+background: -webkit-linear-gradient(left, #00699e , #3387B1); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(right, #00699e, #3387B1); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(right, #00699e, #3387B1); /* For Firefox 3.6 to 15 */
+background: -ms-linear-gradient(right, #00699e, #3387B1); /* IE10+ */
+background: linear-gradient(to right, #00699e, #3387B1); /* Standard syntax (must be last) */ height:135px;">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand"  href="/"><img src="/_catalogs/masterpage/ShareBoot/images/central1.png" /></a>
+		</div>
+		<!-- Start Search -->
+		<div style="margin-top:50px;margin-left:850px;background:#fff; width:226px;">
+					<asp:ContentPlaceHolder id="PlaceHolderSearchArea" runat="server">
+						<SearchWC:SearchBoxScriptWebPart UseSiteCollectionSettings="true" EmitStyleReference="false" ShowQuerySuggestions="true" ChromeType="None" UseSharedSettings="true" TryInplaceQuery="false" ServerInitialRender="true" runat="server" __MarkupType="vsattributemarkup" WebPart="true" Height="" Width="" __WebPartId="{2504234B-45B3-414C-A5EC-F92BE17DC921}" id="g_2504234b_45b3_414c_a5ec_f92be17dc921"/></asp:ContentPlaceHolder>
+					</div><!-- End Search -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+			<PublishingNavigation:PortalSiteMapDataSource ID="topSiteMap" runat="server" EnableViewState="false" SiteMapProvider="GlobalNavigationSwitchableProvider" StartFromCurrentNode="true" StartingNodeOffset="0" ShowStartingNode="false" TrimNonCurrentTypes="Heading"/>
+			<SharePoint:AspMenu ID="TopNavigationMenu" runat="server" EnableViewState="false" DataSourceID="topSiteMap" AccessKey="&lt;%$Resources:wss,navigation_accesskey%&gt;" UseSimpleRendering="true" UseSeparateCss="true" Orientation="Horizontal" StaticDisplayLevels="1" AdjustForShowStartingNode="true" MaximumDynamicDisplayLevels="1" SkipLinkText=""/>
+		</div>
+	</div>
